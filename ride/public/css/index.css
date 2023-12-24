@@ -1,0 +1,60 @@
+.home {
+    background: #242424 url('../images/toyota.jpeg');
+    height: 100vh;
+    overflow-y: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.home>p {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+    color: #ffffffff;
+    font-style: normal;
+}
+
+.home>h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.car-image-div {
+    margin-right: 3rem;
+}
+
+.vertical {
+    margin-right: 3rem;
+    border-right: 5px solid gray;
+
+}
+
+.card-details {
+    display: flex;
+}
+
+.lable {
+    display: flex;
+}
+
+.select-item {
+    background: #808080;
+    cursor: pointer;
+}
+
+.grayed {
+    background: #c77e7e !important;
+}
+
+li {
+    list-style: none;
+}
